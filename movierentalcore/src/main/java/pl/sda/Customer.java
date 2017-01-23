@@ -37,6 +37,9 @@ public class Customer {
         this.birthYear = birthYear;
     }
 
+    public Customer() {
+    }
+
     public int getIdNumber() {
         return idNumber;
     }

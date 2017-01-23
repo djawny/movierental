@@ -10,6 +10,9 @@ public class Rental {
     private Date endDate;
     List<Movie> movies;
 
+    public Rental() {
+    }
+
     public Rental(Customer customer, Date startDate, Date endDate, List<Movie> movies) {
         this.customer = customer;
         this.startDate = startDate;

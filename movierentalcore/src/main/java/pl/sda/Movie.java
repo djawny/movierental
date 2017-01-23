@@ -6,6 +6,9 @@ package pl.sda;
 public class Movie {
     String title;
 
+    public Movie() {
+    }
+
     public String getTitle() {
         return title;
     }
