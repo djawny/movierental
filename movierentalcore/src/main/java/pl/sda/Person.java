@@ -1,13 +1,13 @@
 package pl.sda;
 
-public class Owner {
+public class Person {
     private String name;
     private String city;
 
-    public Owner() {
+    public Person() {
     }
 
-    public Owner(String name, String city) {
+    public Person(String name, String city) {
         this.name = name;
         this.city = city;
     }
@@ -30,7 +30,7 @@ public class Owner {
 
     @Override
     public String toString() {
-        return "Owner{" +
+        return "Person{" +
                 "name='" + name + '\'' +
                 ", city='" + city + '\'' +
                 '}';

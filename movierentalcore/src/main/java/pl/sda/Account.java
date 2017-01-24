@@ -5,13 +5,13 @@ import java.util.List;
 
 public class Account {
     private List<CreditCard> creditCards = new ArrayList<>();
-    private Owner owner;
+    private Person owner;
     private int id;
 
     public Account() {
     }
 
-    public Account(List<CreditCard> creditCards, Owner owner, int id) {
+    public Account(List<CreditCard> creditCards, Person owner, int id) {
         this.creditCards = creditCards;
         this.owner = owner;
         this.id = id;
@@ -25,11 +25,11 @@ public class Account {
         this.creditCards = creditCards;
     }
 
-    public Owner getOwner() {
+    public Person getOwner() {
         return owner;
     }
 
-    public void setOwner(Owner owner) {
+    public void setOwner(Person owner) {
         this.owner = owner;
     }
 
