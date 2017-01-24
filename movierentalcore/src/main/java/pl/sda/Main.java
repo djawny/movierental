@@ -28,7 +28,7 @@ public class Main {
                 "    },\n" +
                 "    \"id\":\"1234\"\n" +
                 "}";
-        BankData bankData = objectMapper.readValue(json, BankData.class);
-        System.out.println(bankData);
+        Account account = objectMapper.readValue(json, Account.class);
+        System.out.println(account);
     }
 }

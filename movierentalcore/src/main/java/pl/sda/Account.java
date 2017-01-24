@@ -3,15 +3,15 @@ package pl.sda;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BankData {
+public class Account {
     private List<CreditCard> creditCards = new ArrayList<>();
     private Owner owner;
     private int id;
 
-    public BankData() {
+    public Account() {
     }
 
-    public BankData(List<CreditCard> creditCards, Owner owner, int id) {
+    public Account(List<CreditCard> creditCards, Owner owner, int id) {
         this.creditCards = creditCards;
         this.owner = owner;
         this.id = id;
@@ -43,7 +43,7 @@ public class BankData {
 
     @Override
     public String toString() {
-        return "BankData{" +
+        return "Account{" +
                 "creditCards=" + creditCards +
                 ", owner=" + owner +
                 ", id=" + id +
