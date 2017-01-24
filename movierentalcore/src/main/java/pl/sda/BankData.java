@@ -40,4 +40,13 @@ public class BankData {
     public void setId(int id) {
         this.id = id;
     }
+
+    @Override
+    public String toString() {
+        return "BankData{" +
+                "creditCards=" + creditCards +
+                ", owner=" + owner +
+                ", id=" + id +
+                '}';
+    }
 }

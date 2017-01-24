@@ -34,7 +34,17 @@ public class CreditCard {
         return currency;
     }
 
+    @Override
+    public String toString() {
+        return "CreditCard{" +
+                "number=" + number +
+                ", money=" + money +
+                ", currency='" + currency + '\'' +
+                '}';
+    }
+
     public void setCurrency(String currency) {
         this.currency = currency;
     }
+
 }

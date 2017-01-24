@@ -27,4 +27,12 @@ public class Owner {
     public void setCity(String city) {
         this.city = city;
     }
+
+    @Override
+    public String toString() {
+        return "Owner{" +
+                "name='" + name + '\'' +
+                ", city='" + city + '\'' +
+                '}';
+    }
 }

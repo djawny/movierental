@@ -30,7 +30,5 @@ public class Main {
                 "}";
         BankData bankData = objectMapper.readValue(json, BankData.class);
         System.out.println(bankData);
-
-
     }
 }
