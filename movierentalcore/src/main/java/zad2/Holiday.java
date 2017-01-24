@@ -7,10 +7,12 @@ import java.util.Date;
 
 public class Holiday {
     private String name;
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd/MM/yyyy")
-    private Date date;
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd/MM/yyyy")
-    private Date observed;
+    //    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd/MM/yyyy")
+//    private Date date;
+    private String date;
+    //    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd/MM/yyyy")
+//    private Date observed;
+    private String observed;
     @JsonProperty("public")
     private Boolean isPublic;
 
@@ -22,19 +24,20 @@ public class Holiday {
         this.name = name;
     }
 
-    public Date getDate() {
+
+    public String getDate() {
         return date;
     }
 
-    public void setDate(Date date) {
+    public void setDate(String date) {
         this.date = date;
     }
 
-    public Date getObserved() {
+    public String getObserved() {
         return observed;
     }
 
-    public void setObserved(Date observed) {
+    public void setObserved(String observed) {
         this.observed = observed;
     }
 
