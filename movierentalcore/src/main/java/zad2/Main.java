@@ -1,13 +1,12 @@
 package zad2;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
 
 import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        String json ="{\n" +
+        String json = "{\n" +
                 "\n" +
                 "    \"status\": 200,\n" +
                 "    \"holidays\": {\n" +
