@@ -8,6 +8,9 @@ public class CreditCard {
     private int money;
     private String currency;
 
+    public CreditCard() {
+    }
+
     public CreditCard(int number, int money, String currency) {
         this.number = number;
         this.money = money;

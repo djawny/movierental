@@ -17,13 +17,12 @@ public class AppJackson {
 
         // ZAMIANA JSONa na obiekt
         String json = "{\n" +
-                "  \"first\\Name\" : \"Adam\",\n" +
+                "  \"firstName\" : \"Adam\",\n" +
                 "  \"lastName\" : \"Kowalski\",\n" +
                 "  \"birthYear\" : 1980,\n" +
                 "  \"idNumber\" : 123\n" +
                 "}";
         Customer customer1 = objectMapper.readValue(json, Customer.class);
-
 
     }
 }

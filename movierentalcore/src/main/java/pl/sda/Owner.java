@@ -7,6 +7,9 @@ public class Owner {
     private String name;
     private String city;
 
+    public Owner() {
+    }
+
     public Owner(String name, String city) {
         this.name = name;
         this.city = city;
