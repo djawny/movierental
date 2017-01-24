@@ -28,7 +28,6 @@ public class Main {
                 "}";
 
         ObjectMapper objectMapper = new ObjectMapper();
-        objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
         Account account = objectMapper.readValue(json, Account.class);
 
         System.out.println(account);

@@ -120,7 +120,6 @@ public class Main {
                 "}";
 
         ObjectMapper objectMapper = new ObjectMapper();
-        objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
         HolidaysCalendar holidaysCalendar = objectMapper.readValue(json, HolidaysCalendar.class);
 
         System.out.println(holidaysCalendar);
