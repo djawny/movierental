@@ -1,11 +1,12 @@
 package zad2;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 public class HolidaysCalendar {
     private int status;
-    private Map<String,List<Holiday>> holidays;
+    private Map<String, List<Holiday>> holidays = new HashMap<>();
 
     public int getStatus() {
         return status;
