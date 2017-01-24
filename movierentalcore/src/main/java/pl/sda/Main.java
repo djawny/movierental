@@ -7,8 +7,6 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        ObjectMapper objectMapper = new ObjectMapper();
-        objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
         String json = "{\n" +
                 "    \"creditCards\":[\n" +
                 "        {\n" +
@@ -28,7 +26,11 @@ public class Main {
                 "    },\n" +
                 "    \"id\":\"1234\"\n" +
                 "}";
+
+        ObjectMapper objectMapper = new ObjectMapper();
+        objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
         Account account = objectMapper.readValue(json, Account.class);
+
         System.out.println(account);
     }
 }
