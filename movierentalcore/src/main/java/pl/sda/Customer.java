@@ -1,9 +1,12 @@
 package pl.sda;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 public class Customer {
     private String firstName;
     private String lastName;
     private int birthYear;
+    @JsonIgnore
     private int idNumber;
 
     public Customer(String firstName, String lastName, int birthYear, int idNumber) {
