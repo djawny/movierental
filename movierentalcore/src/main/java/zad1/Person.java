@@ -1,4 +1,4 @@
-package pl.sda;
+package zad1;
 
 public class Person {
     private String name;

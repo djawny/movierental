@@ -1,4 +1,4 @@
-package pl.sda;
+package zad1;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
