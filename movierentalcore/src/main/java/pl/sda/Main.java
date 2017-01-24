@@ -5,9 +5,6 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 
 import java.io.IOException;
 
-/**
- * Created by RENT on 2017-01-24.
- */
 public class Main {
     public static void main(String[] args) throws IOException {
         ObjectMapper objectMapper = new ObjectMapper();

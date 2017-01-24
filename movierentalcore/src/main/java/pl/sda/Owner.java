@@ -1,8 +1,5 @@
 package pl.sda;
 
-/**
- * Created by RENT on 2017-01-24.
- */
 public class Owner {
     private String name;
     private String city;
