@@ -7,7 +7,7 @@ import junit.framework.TestSuite;
 /**
  * Unit test for simple AppGson.
  */
-public class AppGsonTest
+public class App
     extends TestCase
 {
     /**
@@ -15,7 +15,7 @@ public class AppGsonTest
      *
      * @param testName name of the test case
      */
-    public AppGsonTest(String testName )
+    public App(String testName )
     {
         super( testName );
     }
@@ -25,7 +25,7 @@ public class AppGsonTest
      */
     public static Test suite()
     {
-        return new TestSuite( AppGsonTest.class );
+        return new TestSuite( App.class );
     }
 
     /**

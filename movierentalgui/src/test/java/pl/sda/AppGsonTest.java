@@ -25,7 +25,7 @@ public class AppGsonTest
      */
     public static Test suite()
     {
-        return new TestSuite( AppGsonTest.class );
+        return new TestSuite( App.class );
     }
 
     /**
